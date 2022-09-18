@@ -52,5 +52,4 @@
 		</plugins>
 		<finalName>eureka-server</finalName>
 	</build>
-
 </project>
