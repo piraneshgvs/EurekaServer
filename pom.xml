@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codebuild.aws</groupId>
-	<artifactId>sameple-H2</artifactId>
+	<artifactId>eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EurekaServer</name>
 	<description>Eureka server this will helps to find the client applicaion</description>
