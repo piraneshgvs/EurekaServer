@@ -1,0 +1,17 @@
+version: 0.2
+
+
+phases:
+  runtime-versions:
+    java: java8
+  build:
+    commands:
+      - echo Entered the build phase...
+      - mvn install
+  post_build:
+    commands:
+      - echo Eureka Server Build completed successfully
+artifacts:
+  files:
+    - target/eureka-server.jar
+  discard-paths: yes
